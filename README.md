@@ -1,2 +1,94 @@
 # Mastering-Embedded-System-Online-Diploma
 Mastering Embedded System Online Diploma By Eng.Keroles Shenouda
+## Course content : 
+### ■ Unit 1:
+1. Understanding the System
+2. Install the Tools
+### ■ Unit 2 (C Programming )
+#### - Lesson 1 : Introduction to Embedded System Filed (3-4) Hours
+#### - Lesson 2 : Git Tutorial
+1. Version Control Systems (VCS)
+2. Git Tutorial
+#### - Lesson 3: C Basics
+1. C Basics
+2. C_conditions_Loops
+#### - Lesson 4 : C Array & String
+#### - Lesson 5: C Functions
+1. Difference between variable definition and declaration
+2. C Functions
+3. C storage classes
+4. Inline assembly
+5. Inline function
+#### - EXAM
+### ■ Unit 2 (C Programming )
+#### - Lesson 6 : Structures Union Enum
+1. Structures
+2. Aligned and un-aligned data access on structures
+3. Structure BitField
+4. Union
+5. Enum
+#### - Lesson 7 : Pre-processor directives in C
+1. Macros
+2. #pragma
+3. #& ##
+4. #ifdef , #endif , ......
+5. Constant
+#### - Lesson 8 : C Pointers Lecture
+1. Pointer Types
+2. Pointer tricks
+### ■ Unit 3 : Embedded C
+#### - Lesson 1
+1. TYPEDEF COMMAND
+2. HEADER PROTECTION
+3. OPTIMIZATION
+4. VOLATILE TYPE QUALIFIER
+5. CROSS-COMPILING TOOLCHAINS
+6. STATIC & DYNAMIC LIB
+7. COMPILATION PROCESS
+#### - Lesson 2
+1. BOOTING SEQUENCE
+2. BOOTING WITH DIFFERENT RUNNING MODE
+3. BOOT SEQUENCE INSIDE BOOTLOADERS
+4. BOOTING SEQUENCE EXAMPLES
+- LAB 1 : (WRITE A BAREMETAL SW FROM SCRATCH)
+1. NAVIGATE THE .OBJ FILES (RELOCATABLE IMAGES)
+2. EXECUTABLE FILE SECTIONS (.DATA, .BSS AND RODATA)
+3. STARTUP CODE
+4. LINKER AND LOCATOR
+5. LINKER SCRIPT COMMANDS
+#### - Lesson 3
+1. GDB TUTORIAL
+2. MAKEFILE TUTORIAL
+3. DIFFRENCE BETWEEN CMAKE AND GMAKE.
+- LAB 2: WRITE BAREMETAL SW ON ARM CORTEX-M3 32-BIT
+- MICROCONTROLLER
+1. STARTUP ASSEMBLY FILE
+2. MEMORY ALIGNMENT
+3. THUMB INSTRUCTIONS
+4. Advanced LINKER SCRIPT
+5. WRITE A C STARTUP
+6. FUNCTIONAL ATTRIBUTE: WEAK AND ALIAS IN EMBEDDED C
+7. HOW TO COPY (DATA AND CREATE .BSS SECTIONS)
+#### - Lesson 4
+- LAB 3 : WRITE BAREMETAL SW ON TM4C123 ARM CORTEXM4
+1. REVIEW MAPFILE
+2. DEBUG TM4C123 BY KEIL-UVISION SIMULATION MODE
+3. DEBUGGING MECHANISM
+4. DEBUG TM4C123 BY OPENOCD GDBSERVER
+5. DEBUG TM4C123 BY OPENOCD GDBSERVER WITH IDE (ECLIPSE)
+6. DEBUG TM4C123 BY KEIL-UVISION
+7. FAMOUS JTAG/SWD (EMULATORS/DEBUGGERS_ADAPTORS)
+8. ST-LINK
+9. J-LINK
+10. LAUTERBACH \ TRACE32
+11. RENESAS E1/E2 DEBUGGER
+#### - Lesson 5
+1. FAMOUS JTAG/SWD (EMULATORS/DEBUGGERS_ADAPTORS)
+2. ST-LINK
+3. J-LINK
+4. LAUTERBACH \ TRACE32
+5. RENESAS E1/E2 DEBUGGER
+6. DYNAMIC ALLOCATION
+7. DYNAMIC ALLOCATION CODE IN EMBEDDED C
+8. IMPLEMENT _SBRK TO SUPPORT MALLOC IN EMBEDDED C
+9. SUPPORT PRINTF IN EMBEDDED C
