@@ -1,0 +1,9 @@
+10:23:44 **** Rebuild of configuration Debug for project Unit 1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o "..\\Test.c" 
+..\Test.c: In function 'main':
+..\Test.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+   12 | }
+      | ^
+gcc -ansi -std=c89 -o "Unit 1.exe" Test.o 
+Info: Nothing to build for Unit 1
