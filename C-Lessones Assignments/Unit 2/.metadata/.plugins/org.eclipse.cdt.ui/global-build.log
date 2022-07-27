@@ -1,0 +1,17 @@
+13:21:40 **** Rebuild of configuration Debug for project Lecture 3_ Lab 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Lecture 3_ Lab 1.exe" "Lecture 3_ Lab 1.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+13:23:06 **** Incremental Build of configuration Debug for project Lecture 3_ Lab 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Lecture 3_ Lab 1.exe" "Lecture 3_ Lab 1.o" 
+Info: Nothing to build for Lecture 3_ Lab 1
+13:26:05 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 1.o" "..\\Lecture 3_Assignment 1_EX 1.c" 
+gcc -o "Lecture 3_Assignment 1_EX 1.exe" "Lecture 3_Assignment 1_EX 1.o" 
+Info: Nothing to build for Lecture 3_Assignment 1_EX 1
