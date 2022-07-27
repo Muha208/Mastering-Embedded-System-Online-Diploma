@@ -1,6 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_ Lab 1.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_Assignment 1_EX 1.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_Assignment 1_EX 2.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_ Lab 1.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_Assignment 1_EX 1.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_Assignment 1_EX 2.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture 3_Assignment 1_EX 3.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Lecture\ 3_\ Lab\ 1.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lecture\ 3_\ Lab\ 1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Lecture\ 3_Assignment\ 1_EX\ 3.exe/activeLaunchMode=run
