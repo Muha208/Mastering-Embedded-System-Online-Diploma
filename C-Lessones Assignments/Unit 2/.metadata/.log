@@ -277,3 +277,9 @@ java.io.FileNotFoundException: http://download.eclipse.org/mylyn/snapshots/3.21/
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-07-27 14:46:36.159
 !MESSAGE Indexed 'Lecture 3_Assignment 1_EX 4' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-27 14:54:24.754
+!MESSAGE Indexed 'Lecture 3_Assignment 1_EX 5' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-27 15:01:28.177
+!MESSAGE Indexed 'Lecture 3_Assignment 1_EX 6' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
