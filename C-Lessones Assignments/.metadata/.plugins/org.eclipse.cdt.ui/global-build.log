@@ -1,9 +1,22 @@
-10:23:44 **** Rebuild of configuration Debug for project Unit 1 ****
+11:27:48 **** Clean-only build of configuration Debug for project Unit 2 ****
+rm -rf "Lecture 3_ Lab 1.o" "Lecture 3_ Lab 1.d" "Unit 2.exe" 
+11:27:52 **** Rebuild of configuration Debug for project Unit 2 ****
 Info: Internal Builder is used for build
-gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o "..\\Test.c" 
-..\Test.c: In function 'main':
-..\Test.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
-   12 | }
-      | ^
-gcc -ansi -std=c89 -o "Unit 1.exe" Test.o 
-Info: Nothing to build for Unit 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Unit 2.exe" "Lecture 3_ Lab 1.o" 
+Info: Nothing to build for Unit 2
+Info: Nothing to build for Unit 2
+Info: Nothing to build for Unit 2
+11:34:31 **** Incremental Build of configuration Debug for project Unit 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Unit 2.exe" "Lecture 3_ Lab 1.o" 
+11:36:29 **** Incremental Build of configuration Debug for project Unit 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Unit 2.exe" "Lecture 3_ Lab 1.o" 
+11:36:49 **** Incremental Build of configuration Debug for project Unit 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_ Lab 1.o" "..\\Lecture 3_ Lab 1.c" 
+gcc -o "Unit 2.exe" "Lecture 3_ Lab 1.o" 
+Info: Nothing to build for Unit 2
