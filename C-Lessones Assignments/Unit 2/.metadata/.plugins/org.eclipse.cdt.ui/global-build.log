@@ -15,3 +15,38 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 1.o" "..\\Lecture 3_Assignment 1_EX 1.c" 
 gcc -o "Lecture 3_Assignment 1_EX 1.exe" "Lecture 3_Assignment 1_EX 1.o" 
 Info: Nothing to build for Lecture 3_Assignment 1_EX 1
+13:46:39 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 2.o" "..\\Lecture 3_Assignment 1_EX 2.c" 
+..\Lecture 3_Assignment 1_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 1_EX 2.c:22:36: error: expected ';' before '}' token
+   22 |         printf("You entered: %d",x)
+      |                                    ^
+      |                                    ;
+   23 | }
+      | ~                                   
+13:47:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 2.o" "..\\Lecture 3_Assignment 1_EX 2.c" 
+..\Lecture 3_Assignment 1_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 1_EX 2.c:22:36: error: expected ';' before '}' token
+   22 |         printf("You entered: %d",x)
+      |                                    ^
+      |                                    ;
+   23 | }
+      | ~                                   
+13:49:51 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 2.o" "..\\Lecture 3_Assignment 1_EX 2.c" 
+..\Lecture 3_Assignment 1_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 1_EX 2.c:21:31: error: 'stdput' undeclared (first use in this function); did you mean 'stdout'?
+   21 |         fflush(stdin); fflush(stdput);
+      |                               ^~~~~~
+      |                               stdout
+..\Lecture 3_Assignment 1_EX 2.c:21:31: note: each undeclared identifier is reported only once for each function it appears in
+13:50:32 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 2.o" "..\\Lecture 3_Assignment 1_EX 2.c" 
+gcc -o "Lecture 3_Assignment 1_EX 2.exe" "Lecture 3_Assignment 1_EX 2.o" 
+Info: Nothing to build for Lecture 3_Assignment 1_EX 2
+Info: Nothing to build for Lecture 3_Assignment 1_EX 2

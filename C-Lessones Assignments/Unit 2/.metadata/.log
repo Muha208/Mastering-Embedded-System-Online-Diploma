@@ -128,3 +128,9 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY org.eclipse.core.resources 4 372 2022-07-27 13:26:08.413
 !MESSAGE Resource '/Lecture 3_ Lab 1' is not open.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-27 13:42:25.785
+!MESSAGE Indexed 'Lecture 3_Assignment 1_EX 2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-27 13:53:22.988
+!MESSAGE Indexed 'Lecture 3_Assignment 1_EX 3' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
