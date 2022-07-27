@@ -1,1 +1,21 @@
-Info: Nothing to build for Unit 1
+11:38:23 **** Incremental Build of configuration Debug for project Unit 1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o "..\\Test.c" 
+..\Test.c:1:8: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+    1 |  * Test.c
+      |        ^
+In file included from c:\mingw\x86_64-w64-mingw32\include\_mingw.h:283,
+                 from c:\mingw\x86_64-w64-mingw32\include\corecrt.h:10,
+                 from c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h:10,
+                 from c:\mingw\x86_64-w64-mingw32\include\stdio.h:9,
+                 from ..\Test.c:6:
+c:\mingw\x86_64-w64-mingw32\include\vadefs.h:31:11: error: unknown type name '__gnuc_va_list'
+   31 |   typedef __gnuc_va_list va_list;
+      |           ^~~~~~~~~~~~~~
+..\Test.c: In function 'main':
+..\Test.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+   11 | }
+      | ^
+
+11:38:23 Build Finished (took 112ms)
+

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658920132474_1" label="Embedded Systems" name="Embedded Systems"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658737285399_0" label="Window Working Set" name="Aggregate for window 1658737285399"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658920432309_2" label="Window Working Set" name="Aggregate for window 1658920432309"/>
+<mruList name="Embedded Systems"/>
 </workingSetManager>

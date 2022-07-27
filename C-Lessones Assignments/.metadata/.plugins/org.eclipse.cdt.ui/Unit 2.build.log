@@ -1,0 +1,11 @@
+12:46:58 **** Incremental Build of configuration Debug for project Unit 2 ****
+Info: Internal Builder is used for build
+gcc -o "Unit 2.exe" "Assignments 1\\A.o" "Lecture 3_ Lab 1.o" "Lecture 3_Assignment 1_Ex 1.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Lecture 3_ Lab 1.o: in function `main':
+M:\Eng\Embedded Systems Diploma\Lessones Assessments\Mastering-Embedded-System-Online-Diploma\C-Lessones Assignments\Unit 2\Debug/../Lecture 3_ Lab 1.c:20: multiple definition of `main'; Assignments 1\A.o:M:\Eng\Embedded Systems Diploma\Lessones Assessments\Mastering-Embedded-System-Online-Diploma\C-Lessones Assignments\Unit 2\Debug/../Assignments 1/A.c:12: first defined here
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Lecture 3_Assignment 1_Ex 1.o: in function `main':
+M:\Eng\Embedded Systems Diploma\Lessones Assessments\Mastering-Embedded-System-Online-Diploma\C-Lessones Assignments\Unit 2\Debug/../Lecture 3_Assignment 1_Ex 1.c:12: multiple definition of `main'; Assignments 1\A.o:M:\Eng\Embedded Systems Diploma\Lessones Assessments\Mastering-Embedded-System-Online-Diploma\C-Lessones Assignments\Unit 2\Debug/../Assignments 1/A.c:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+12:46:58 Build Finished (took 193ms)
+

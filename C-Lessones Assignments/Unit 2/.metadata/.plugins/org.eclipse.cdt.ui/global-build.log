@@ -1,0 +1,15 @@
+14:51:56 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
+rm -rf "Lecture 3_Assignment 1_EX 4.d" "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
+14:52:12 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 4.o" "..\\Lecture 3_Assignment 1_EX 4.c" 
+gcc -o "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
+Info: Nothing to build for Lecture 3_Assignment 1_EX 4
+14:55:54 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
+gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
+14:59:41 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
+gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
