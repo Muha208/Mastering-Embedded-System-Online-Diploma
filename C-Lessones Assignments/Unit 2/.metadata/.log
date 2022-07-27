@@ -274,3 +274,6 @@ java.io.FileNotFoundException: http://download.eclipse.org/mylyn/snapshots/3.21/
 
 !ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-07-27 14:34:07.889
 !MESSAGE Unable to locate file: C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/misc/wcrtomb.c
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-27 14:46:36.159
+!MESSAGE Indexed 'Lecture 3_Assignment 1_EX 4' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

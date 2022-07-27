@@ -1,13 +1,7 @@
-14:42:03 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 1_EX 3 ****
-rm -rf "Lecture 3_Assignment 1_EX 3.d" "Lecture 3_Assignment 1_EX 3.exe" "Lecture 3_Assignment 1_EX 3.o" 
-rm: cannot remove `Lecture 3_Assignment 1_EX 3.exe': Permission denied
-14:42:29 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 3 ****
+14:51:56 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
+rm -rf "Lecture 3_Assignment 1_EX 4.d" "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
+14:52:12 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
 Info: Internal Builder is used for build
-gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 3.o" "..\\Lecture 3_Assignment 1_EX 3.c" 
-gcc -ansi -std=c89 -o "Lecture 3_Assignment 1_EX 3.exe" "Lecture 3_Assignment 1_EX 3.o" 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 1_EX 3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-14:43:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 3 ****
-Info: Internal Builder is used for build
-gcc -ansi -std=c89 -o "Lecture 3_Assignment 1_EX 3.exe" "Lecture 3_Assignment 1_EX 3.o" 
-Info: Nothing to build for Lecture 3_Assignment 1_EX 3
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 4.o" "..\\Lecture 3_Assignment 1_EX 4.c" 
+gcc -o "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
+Info: Nothing to build for Lecture 3_Assignment 1_EX 4
