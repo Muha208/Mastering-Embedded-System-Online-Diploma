@@ -209,3 +209,102 @@ gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
 gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:43:21 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:30:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   30 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 5.c:30:17: warning: 'x' is used uninitialized [-Wuninitialized]
+   30 |                 scanf("%c",x);
+      |                 ^~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 5.c:32:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   32 |         }while (y == 'C' || y == 'c');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:43:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:32:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   32 |         }while (y == 'C' || y == 'c');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:48:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:29: warning: comparison of constant '90' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                             ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                     ~~~^~~~
+..\Lecture 3_Assignment 2_EX 5.c:31:46: warning: comparison of constant '122' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                                              ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:41: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                                      ~~~^~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 5
+10:49:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:29: warning: comparison of constant '90' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90)
+      |                             ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90)
+      |                     ~~~^~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:50:48 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:28: warning: comparison of constant '91' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                            ^
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                     ~~~^~~
+..\Lecture 3_Assignment 2_EX 5.c:31:43: warning: comparison of constant '123' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                                           ^
+..\Lecture 3_Assignment 2_EX 5.c:31:39: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                                    ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:08 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:28: warning: comparison of constant '91' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91)
+      |                            ^
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91)
+      |                     ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:28 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   31 |                 if (64 < x & x < 91)
+      |                     ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:39 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:52:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 5
