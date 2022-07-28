@@ -1,0 +1,68 @@
+/*
+ * Lecture 3_Assignment 2_EX 3.c
+ *
+ *  Created on: 28 Jul 2022
+ *      Author: Muhammad Osama
+ */
+
+
+/*
+ * EX3:C Program to Find the Largest Number Among Three Numbers
+
+In this program user is asked to enter three numbers and this program wi11 find the largest number among three numbers entered
+by user. This program can be solved in more than one way.
+
+Output
+Enter three numbers: 12.2 13.452
+10.193
+Largest number= 13.45
+ *
+ */
+
+#include<stdio.h>
+
+int main(void){
+	float x,y,z; char f;
+	do
+	{
+		printf("Enter three numbers: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%f %f\n%f",&x,&y,&z);
+
+		if (x > y)
+		{
+			if (x > z)
+			{
+				printf("Largest number= %.2f",x);
+				fflush(stdin); fflush(stdout);
+				printf("\nIf you want to continue Press C\n");
+				fflush(stdin); fflush(stdout);
+				scanf("%c",&f);
+			}
+			else
+			{
+				printf("Largest number= %.2f",z);
+				fflush(stdin); fflush(stdout);
+				printf("\nIf you want to continue Press C\n");
+				fflush(stdin); fflush(stdout);
+				scanf("%c",&f);
+			}
+		}
+		else if (y >z)
+		{
+			printf("Largest number= %.2f",y);
+			fflush(stdin); fflush(stdout);
+			printf("\nIf you want to continue Press C\n");
+			fflush(stdin); fflush(stdout);
+			scanf("%c",&f);
+		}
+		else
+		{
+			printf("Largest number= %.2f",z);
+			fflush(stdin); fflush(stdout);
+			printf("\nIf you want to continue Press C\n");
+			fflush(stdin); fflush(stdout);
+			scanf("%c",&f);
+		}
+	}while (f == 'c' || f == 'C');
+}
