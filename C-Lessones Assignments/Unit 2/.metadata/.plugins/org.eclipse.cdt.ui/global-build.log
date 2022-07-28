@@ -11,3 +11,84 @@ collect2.exe: error: ld returned 1 exit status
 Info: Internal Builder is used for build
 gcc -o "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" 
 Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+09:28:16 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+..\Lecture 3_Assignment 2_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 2.c:30:30: error: expected ';' before ':' token
+   30 |                 fflush(stdin): fflush(stdout);
+      |                              ^
+      |                              ;
+..\Lecture 3_Assignment 2_EX 2.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 2.c:33:26: error: 'i' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                          ^
+..\Lecture 3_Assignment 2_EX 2.c:33:26: note: each undeclared identifier is reported only once for each function it appears in
+..\Lecture 3_Assignment 2_EX 2.c:33:36: error: 'a' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                    ^
+..\Lecture 3_Assignment 2_EX 2.c:33:46: error: 'e' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                              ^
+..\Lecture 3_Assignment 2_EX 2.c:33:56: error: 'o' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                                        ^
+..\Lecture 3_Assignment 2_EX 2.c:33:66: error: 'u' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                                                  ^
+..\Lecture 3_Assignment 2_EX 2.c:34:41: error: 'I' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                         ^
+..\Lecture 3_Assignment 2_EX 2.c:34:51: error: 'A' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                   ^
+..\Lecture 3_Assignment 2_EX 2.c:34:61: error: 'E' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                             ^
+..\Lecture 3_Assignment 2_EX 2.c:34:71: error: 'O' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                                       ^
+..\Lecture 3_Assignment 2_EX 2.c:34:81: error: 'U' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                                                 ^
+..\Lecture 3_Assignment 2_EX 2.c:39:1: error: expected 'while' before '}' token
+   39 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 2.c:39:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 2.c:26:16: warning: unused variable 'y' [-Wunused-variable]
+   26 |         char x,y;
+      |                ^
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+09:32:08 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+..\Lecture 3_Assignment 2_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 2.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 2.c:31:17: warning: 'x' is used uninitialized [-Wuninitialized]
+   31 |                 scanf("%c",x);
+      |                 ^~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 2.c:40:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   40 |         }while (y == 'y' || y == 'Y');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 2
+09:34:14 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 2
+09:34:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
