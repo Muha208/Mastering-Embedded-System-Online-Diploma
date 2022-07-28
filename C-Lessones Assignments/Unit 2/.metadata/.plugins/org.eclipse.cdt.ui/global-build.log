@@ -308,3 +308,89 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
 gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
 Info: Nothing to build for Lecture 3_Assignment 2_EX 5
+10:57:07 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+11:16:17 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 6
+11:16:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:32:32: error: expected ';' before 'sum'
+   32 |                         sum = 0
+      |                                ^
+      |                                ;
+   33 |                         sum = sum + x;
+      |                         ~~~     
+11:17:18 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:17:19 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:17:36 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:31:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:32:09 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:32:22 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:33:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:31:31: error: expected expression before '<' token
+   31 |                 for (x = 1;x =< z;x++ )
+      |                               ^
+11:33:48 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:31:28: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   31 |                 for (x = 1;x = z;x++ )
+      |                            ^
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:34:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:34:50 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:34:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:35:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
