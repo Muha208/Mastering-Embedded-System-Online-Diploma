@@ -958,3 +958,462 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
 gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
 Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+14:31:50 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:33:1: error: expected 'while' before '}' token
+   33 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 8.c:33:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 8.c:26:30: warning: unused variable 'answer' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                              ^~~~~~
+..\Lecture 3_Assignment 2_EX 8.c:26:25: warning: unused variable 'sing' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                         ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:26:17: warning: unused variable 'y' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:26:15: warning: unused variable 'x' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |               ^
+14:37:53 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",sing);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 8.c:34:25: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   34 |                 scanf("%f\n%f",x,y);
+      |                        ~^      ~
+      |                         |      |
+      |                         |      double
+      |                         float *
+..\Lecture 3_Assignment 2_EX 8.c:34:29: warning: format '%f' expects argument of type 'float *', but argument 3 has type 'double' [-Wformat=]
+   34 |                 scanf("%f\n%f",x,y);
+      |                            ~^    ~
+      |                             |    |
+      |                             |    double
+      |                             float *
+..\Lecture 3_Assignment 2_EX 8.c:40:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   40 |                 else if (sing == '-');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:41:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   41 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:44:17: error: 'else' without a previous 'if'
+   44 |                 else if (sing == '*');
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:44:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   44 |                 else if (sing == '*');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:45:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   45 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:48:17: error: 'else' without a previous 'if'
+   48 |                 else if (sing == '/');
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:48:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   48 |                 else if (sing == '/');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:49:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   49 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:52:17: error: 'else' without a previous 'if'
+   52 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:58:30: error: lvalue required as left operand of assignment
+   58 |         }while (z = 'y' || z = 'Y');
+      |                              ^
+..\Lecture 3_Assignment 2_EX 8.c:26:32: warning: variable 'answer' set but not used [-Wunused-but-set-variable]
+   26 |         float x,y,z; char sing,answer;
+      |                                ^~~~~~
+14:42:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z)
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:43:39: error: expected ';' before '}' token
+   43 |                         scanf("%c",&z)
+      |                                       ^
+      |                                       ;
+   44 |                 }
+      |                 ~                      
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z)
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:52:39: error: expected ';' before '}' token
+   52 |                         scanf("%c",&z)
+      |                                       ^
+      |                                       ;
+   53 |                                 }
+      |                                 ~      
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:42:24 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:42:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:43:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:57:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:57:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:61:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   61 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:66:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:66:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:70:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   70 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:44:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:39:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:48:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:57:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:57:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:57:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:66:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:66:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:66:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:46:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 8
+14:49:19 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:49:33 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:51:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:52:03 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
