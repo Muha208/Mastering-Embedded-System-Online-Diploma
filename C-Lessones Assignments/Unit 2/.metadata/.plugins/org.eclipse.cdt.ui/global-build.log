@@ -133,3 +133,79 @@ gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
 gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+10:28:03 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:31:19: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   31 |           scanf("%f",x);
+      |                  ~^  ~
+      |                   |  |
+      |                   |  double
+      |                   float *
+..\Lecture 3_Assignment 2_EX 4.c:37:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   37 |                   printf("%f is negative");
+      |                           ~^
+      |                            |
+      |                            double
+..\Lecture 3_Assignment 2_EX 4.c:39:27: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |                   scanf("%f",x);
+      |                          ~^  ~
+      |                           |  |
+      |                           |  double
+      |                           float *
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 4.c:26:17: warning: unused variable 'y' [-Wunused-variable]
+   26 |         float x,y;
+      |                 ^
+10:29:33 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:37:26: warning: too many arguments for format [-Wformat-extra-args]
+   37 |                   printf("\nPress 1 to continue\n",y);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+10:29:52 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:37:26: warning: too many arguments for format [-Wformat-extra-args]
+   37 |                   printf("\nPress 1 to continue\n",y);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+10:31:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:57:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   57 |         }while (y = 1);
+      |                 ^
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:31:59 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 4
+10:32:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:32:44 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:33:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
