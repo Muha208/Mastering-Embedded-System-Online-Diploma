@@ -1,0 +1,7 @@
+10:05:10 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+
+10:05:10 Build Finished (took 391ms)
+

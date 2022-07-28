@@ -1,0 +1,39 @@
+/*
+ * Lecture 3_Assignment 2_EX 2.c
+ *
+ *  Created on: 28 Jul 2022
+ *      Author: Muhammad Osama
+ */
+
+
+/*
+ * EX2: C Program to Check Vowel or Consonant
+
+Alphabets a, e, i, o and u are known as vowels and all alphabets except these characters are
+known as consonants. This program asks user to enter a character
+and checks whether that character is vowel or not.
+
+Output 1
+Enter an alphabet: i i is a vowel.
+
+Output 2
+Enter an alphabet: G G is  a consonant
+ *
+ */
+
+#include<stdio.h>
+int main(void){
+	char x,y;
+	do
+	{
+		printf ("Enter an alphabet: ");
+		fflush(stdin): fflush(stdout);
+		scanf("%c",x);
+
+		if (x == i || x == a || x == e || x == o || x == u
+				|| x == I || x == A || x == E || x == O || x == U )
+		{
+
+		}
+	}
+}

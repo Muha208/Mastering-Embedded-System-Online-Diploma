@@ -1,0 +1,64 @@
+/*
+ * Lecture 3_Assignment 2_EX 8.c
+ *
+ *  Created on: 28 Jul 2022
+ *      Author: Muhammad Osama
+ */
+
+/*
+ * EX8: C Program to Make a Simple Calculator to Add, Subtract, Multiply or Divide Using switch...case
+
+This program takes an arithmetic operator ( +, -, *, /) and two operands from an user and performs
+the operation on those two operands depending upon the operator entered by user.
+
+Output
+
+Enter operator either+ or - or* or divide
+Enter two operands: 3.4
+8.4
+3.4 - 8.4 = -5.0
+ *
+ */
+
+#include <stdio.h>
+
+int main(void){
+	float x,y,z; char sing,answer;
+	do
+	{
+		printf("Enter operator either + or - or * or /");
+		fflush(stdin); fflush(stdout);
+		scanf("%c",&sing);
+		printf("Enter two operands\nFirst one: \nSecond one: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%f\n%f",&x,&y);
+
+		if (sing == '+')
+		{
+			answer = x + y;
+			printf("%d");
+			fflush(stdin); fflush(stdout);
+			printf("Enter operator either + or - or * or /");
+			fflush(stdin); fflush(stdout);
+		}
+		else if (sing == '-')
+		{
+			answer = x - y;
+		}
+		else if (sing == '*')
+		{
+			answer = x * y;
+		}
+		else if (sing == '/')
+		{
+			answer = x / y;
+		}
+		else
+		{
+			printf("Error Sing");
+			fflush(stdin); fflush(stdout);
+		}
+
+	}while (z = 'y' || z = 'Y');
+}
+

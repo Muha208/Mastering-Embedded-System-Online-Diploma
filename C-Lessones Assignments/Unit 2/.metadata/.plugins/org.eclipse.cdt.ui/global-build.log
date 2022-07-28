@@ -1,15 +1,1419 @@
-14:51:56 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
-rm -rf "Lecture 3_Assignment 1_EX 4.d" "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
-14:52:12 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
+09:12:27 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
+rm -rf "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" "Lecture 3_Assignment 2_EX 1.d" 
+rm: cannot remove `Lecture 3_Assignment 2_EX 1.exe': Permission denied
+09:12:30 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 4.o" "..\\Lecture 3_Assignment 1_EX 4.c" 
-gcc -o "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
-Info: Nothing to build for Lecture 3_Assignment 1_EX 4
-14:55:54 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 1.o" "..\\Lecture 3_Assignment 2_EX 1.c" 
+gcc -o "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:12:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
-gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
-14:59:41 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
+gcc -o "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+09:28:16 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
-gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+..\Lecture 3_Assignment 2_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 2.c:30:30: error: expected ';' before ':' token
+   30 |                 fflush(stdin): fflush(stdout);
+      |                              ^
+      |                              ;
+..\Lecture 3_Assignment 2_EX 2.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 2.c:33:26: error: 'i' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                          ^
+..\Lecture 3_Assignment 2_EX 2.c:33:26: note: each undeclared identifier is reported only once for each function it appears in
+..\Lecture 3_Assignment 2_EX 2.c:33:36: error: 'a' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                    ^
+..\Lecture 3_Assignment 2_EX 2.c:33:46: error: 'e' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                              ^
+..\Lecture 3_Assignment 2_EX 2.c:33:56: error: 'o' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                                        ^
+..\Lecture 3_Assignment 2_EX 2.c:33:66: error: 'u' undeclared (first use in this function)
+   33 |                 if (x == i || x == a || x == e || x == o || x == u
+      |                                                                  ^
+..\Lecture 3_Assignment 2_EX 2.c:34:41: error: 'I' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                         ^
+..\Lecture 3_Assignment 2_EX 2.c:34:51: error: 'A' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                   ^
+..\Lecture 3_Assignment 2_EX 2.c:34:61: error: 'E' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                             ^
+..\Lecture 3_Assignment 2_EX 2.c:34:71: error: 'O' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                                       ^
+..\Lecture 3_Assignment 2_EX 2.c:34:81: error: 'U' undeclared (first use in this function)
+   34 |                                 || x == I || x == A || x == E || x == O || x == U )
+      |                                                                                 ^
+..\Lecture 3_Assignment 2_EX 2.c:39:1: error: expected 'while' before '}' token
+   39 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 2.c:39:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 2.c:26:16: warning: unused variable 'y' [-Wunused-variable]
+   26 |         char x,y;
+      |                ^
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1
+09:32:08 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+..\Lecture 3_Assignment 2_EX 2.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 2.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 2.c:31:17: warning: 'x' is used uninitialized [-Wuninitialized]
+   31 |                 scanf("%c",x);
+      |                 ^~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 2.c:40:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   40 |         }while (y == 'y' || y == 'Y');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 2
+09:34:14 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 2
+09:34:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 2.o" "..\\Lecture 3_Assignment 2_EX 2.c" 
+gcc -o "Lecture 3_Assignment 2_EX 2.exe" "Lecture 3_Assignment 2_EX 2.o" 
+09:51:43 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+..\Lecture 3_Assignment 2_EX 3.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 3.c:38:33: warning: 'f' may be used uninitialized [-Wmaybe-uninitialized]
+   38 |                                 printf("\nIf you want to Exit Press Q %c\n",f);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+09:53:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 3
+09:53:56 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 3
+09:54:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 3
+Info: Nothing to build for Lecture 3_Assignment 2_EX 3
+09:59:10 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:59:24 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+10:03:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+10:05:10 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 3.o" "..\\Lecture 3_Assignment 2_EX 3.c" 
+gcc -o "Lecture 3_Assignment 2_EX 3.exe" "Lecture 3_Assignment 2_EX 3.o" 
+10:28:03 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:31:19: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   31 |           scanf("%f",x);
+      |                  ~^  ~
+      |                   |  |
+      |                   |  double
+      |                   float *
+..\Lecture 3_Assignment 2_EX 4.c:37:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   37 |                   printf("%f is negative");
+      |                           ~^
+      |                            |
+      |                            double
+..\Lecture 3_Assignment 2_EX 4.c:39:27: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |                   scanf("%f",x);
+      |                          ~^  ~
+      |                           |  |
+      |                           |  double
+      |                           float *
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 4.c:26:17: warning: unused variable 'y' [-Wunused-variable]
+   26 |         float x,y;
+      |                 ^
+10:29:33 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:37:26: warning: too many arguments for format [-Wformat-extra-args]
+   37 |                   printf("\nPress 1 to continue\n",y);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+10:29:52 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:37:26: warning: too many arguments for format [-Wformat-extra-args]
+   37 |                   printf("\nPress 1 to continue\n",y);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected 'while' before '}' token
+   42 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 4.c:42:1: error: expected declaration or statement at end of input
+10:31:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+..\Lecture 3_Assignment 2_EX 4.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 4.c:57:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   57 |         }while (y = 1);
+      |                 ^
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:31:59 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 4
+10:32:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:32:44 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:33:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 4.o" "..\\Lecture 3_Assignment 2_EX 4.c" 
+gcc -o "Lecture 3_Assignment 2_EX 4.exe" "Lecture 3_Assignment 2_EX 4.o" 
+10:43:21 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:30:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   30 |                 scanf("%c",x);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 5.c:30:17: warning: 'x' is used uninitialized [-Wuninitialized]
+   30 |                 scanf("%c",x);
+      |                 ^~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 5.c:32:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   32 |         }while (y == 'C' || y == 'c');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:43:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:32:26: warning: 'y' is used uninitialized [-Wuninitialized]
+   32 |         }while (y == 'C' || y == 'c');
+      |                 ~~~~~~~~~^~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:48:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:29: warning: comparison of constant '90' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                             ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                     ~~~^~~~
+..\Lecture 3_Assignment 2_EX 5.c:31:46: warning: comparison of constant '122' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                                              ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:41: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90 || 97 <= x <= 122)
+      |                                      ~~~^~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 5
+10:49:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:29: warning: comparison of constant '90' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (65 <= x <= 90)
+      |                             ^~
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (65 <= x <= 90)
+      |                     ~~~^~~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:50:48 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:28: warning: comparison of constant '91' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                            ^
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                     ~~~^~~
+..\Lecture 3_Assignment 2_EX 5.c:31:43: warning: comparison of constant '123' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                                           ^
+..\Lecture 3_Assignment 2_EX 5.c:31:39: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91 || 95 < x < 123)
+      |                                    ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:08 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:28: warning: comparison of constant '91' with boolean expression is always true [-Wbool-compare]
+   31 |                 if (64 < x < 91)
+      |                            ^
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   31 |                 if (64 < x < 91)
+      |                     ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:28 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+..\Lecture 3_Assignment 2_EX 5.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 5.c:31:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   31 |                 if (64 < x & x < 91)
+      |                     ~~~^~~
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:51:39 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+10:52:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 5.o" "..\\Lecture 3_Assignment 2_EX 5.c" 
+gcc -o "Lecture 3_Assignment 2_EX 5.exe" "Lecture 3_Assignment 2_EX 5.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 5
+10:57:07 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+11:16:17 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 6
+11:16:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:32:32: error: expected ';' before 'sum'
+   32 |                         sum = 0
+      |                                ^
+      |                                ;
+   33 |                         sum = sum + x;
+      |                         ~~~     
+11:17:18 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:17:19 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:17:36 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:31:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:32:09 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:32:22 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:33:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:31:31: error: expected expression before '<' token
+   31 |                 for (x = 1;x =< z;x++ )
+      |                               ^
+11:33:48 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+..\Lecture 3_Assignment 2_EX 6.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 6.c:31:28: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   31 |                 for (x = 1;x = z;x++ )
+      |                            ^
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:34:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:34:50 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 6.o" "..\\Lecture 3_Assignment 2_EX 6.c" 
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:34:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:35:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 6 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 6.exe" "Lecture 3_Assignment 2_EX 6.o" 
+11:47:26 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:40:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   40 |                 scanf("%d",z);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         int *
+..\Lecture 3_Assignment 2_EX 7.c:52:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   52 |                 scanf("%d",y);
+      |                        ~^  ~
+      |                         |  |
+      |                         |  int
+      |                         int *
+..\Lecture 3_Assignment 2_EX 7.c:59:33: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   59 |                         scanf("%d",y);
+      |                                ~^  ~
+      |                                 |  |
+      |                                 |  int
+      |                                 int *
+..\Lecture 3_Assignment 2_EX 7.c:40:17: warning: 'z' is used uninitialized [-Wuninitialized]
+   40 |                 scanf("%d",z);
+      |                 ^~~~~~~~~~~~~
+..\Lecture 3_Assignment 2_EX 7.c:52:17: warning: 'y' may be used uninitialized [-Wmaybe-uninitialized]
+   52 |                 scanf("%d",y);
+      |                 ^~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+11:48:01 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+11:49:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+11:54:28 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:38 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+11:55:14 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+11:56:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:57:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+11:58:35 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+11:58:43 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:02:14 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %lf",multi);
+      |                                            ~~^  ~~~~~
+      |                                              |  |
+      |                                              |  long int
+      |                                              double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:02:28 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%f' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %f",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long int
+      |                                             double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:02:39 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:03:11 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:04:03 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:04:36 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:05:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:06:04 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:09:17 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:09:53 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %d",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long int
+      |                                             int
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:10:13 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:11:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:11:35 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %lf",multi);
+      |                                            ~~^  ~~~~~
+      |                                              |  |
+      |                                              |  long int
+      |                                              double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:11:43 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:43:04 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:44:34 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:45:31 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:46:01 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:46:52 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:47:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:47:20 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:48:13 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:50:15 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:51:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:53:30 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+12:54:13 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+12:59:14 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:59:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:00:21 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:00:51 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:02:48 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:03:03 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:05:44 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:06:18 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:06:52 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%f' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %f",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long int
+      |                                             double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:07:11 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%f' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %fd",multi);
+      |                                            ~^   ~~~~~
+      |                                             |   |
+      |                                             |   long int
+      |                                             double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:07:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%f' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %fd",multi);
+      |                                            ~^   ~~~~~
+      |                                             |   |
+      |                                             |   long int
+      |                                             double
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:07:37 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:07:47 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:08:49 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:09:02 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:09:39 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:09:52 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:10:23 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:11:04 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:11:22 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:12:12 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:12:26 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:12:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%n' expects argument of type 'int *', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %n",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long int
+      |                                             int *
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:15:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:15:26 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %ll",multi);
+      |                                              ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %ll",multi);
+      |                                ^~~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:15:43 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long long int' [-Wformat=]
+   48 |                         printf("Factorial= %lf",multi);
+      |                                            ~~^  ~~~~~
+      |                                              |  |
+      |                                              |  long long int
+      |                                              double
+      |                                            %lld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:16:01 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%f' expects argument of type 'double', but argument 2 has type 'long long int' [-Wformat=]
+   48 |                         printf("Factorial= %f",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long long int
+      |                                             double
+      |                                            %lld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:16:24 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long int' [-Wformat=]
+   48 |                         printf("Factorial= %d",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long long int
+      |                                             int
+      |                                            %lld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:17:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   48 |                         printf("Factorial= %d",multi);
+      |                                            ~^  ~~~~~
+      |                                             |  |
+      |                                             |  long int
+      |                                             int
+      |                                            %ld
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:17:26 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:18:25 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:45: warning: conversion lacks type at end of format [-Wformat=]
+   48 |                         printf("Factorial= %l",multi);
+      |                                             ^
+..\Lecture 3_Assignment 2_EX 7.c:48:32: warning: too many arguments for format [-Wformat-extra-args]
+   48 |                         printf("Factorial= %l",multi);
+      |                                ^~~~~~~~~~~~~~~
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:18:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+13:19:36 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%li' expects argument of type 'long int', but argument 2 has type 'long long int' [-Wformat=]
+   48 |                         printf("Factorial= %li",multi);
+      |                                            ~~^  ~~~~~
+      |                                              |  |
+      |                                              |  long long int
+      |                                              long int
+      |                                            %lli
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:19:53 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:21:03 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%li' expects argument of type 'long int', but argument 2 has type 'long long int' [-Wformat=]
+   48 |                         printf("Factorial= %lid",multi);
+      |                                            ~~^   ~~~~~
+      |                                              |   |
+      |                                              |   long long int
+      |                                              long int
+      |                                            %lli
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:21:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+13:59:16 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+14:00:13 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+..\Lecture 3_Assignment 2_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 7.c:48:46: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long double' [-Wformat=]
+   48 |                         printf("Factorial= %lf",multi);
+      |                                            ~~^  ~~~~~
+      |                                              |  |
+      |                                              |  long double
+      |                                              double
+      |                                            %Lf
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:00:21 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+14:00:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 7.o" "..\\Lecture 3_Assignment 2_EX 7.c" 
+gcc -o "Lecture 3_Assignment 2_EX 7.exe" "Lecture 3_Assignment 2_EX 7.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 7
+14:31:50 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:33:1: error: expected 'while' before '}' token
+   33 | }
+      | ^
+..\Lecture 3_Assignment 2_EX 8.c:33:1: error: expected declaration or statement at end of input
+..\Lecture 3_Assignment 2_EX 8.c:26:30: warning: unused variable 'answer' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                              ^~~~~~
+..\Lecture 3_Assignment 2_EX 8.c:26:25: warning: unused variable 'sing' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                         ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:26:17: warning: unused variable 'y' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:26:15: warning: unused variable 'x' [-Wunused-variable]
+   26 |         float x,y; char sing,answer;
+      |               ^
+14:37:53 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:31:25: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |                 scanf("%c",sing);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         char *
+..\Lecture 3_Assignment 2_EX 8.c:34:25: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   34 |                 scanf("%f\n%f",x,y);
+      |                        ~^      ~
+      |                         |      |
+      |                         |      double
+      |                         float *
+..\Lecture 3_Assignment 2_EX 8.c:34:29: warning: format '%f' expects argument of type 'float *', but argument 3 has type 'double' [-Wformat=]
+   34 |                 scanf("%f\n%f",x,y);
+      |                            ~^    ~
+      |                             |    |
+      |                             |    double
+      |                             float *
+..\Lecture 3_Assignment 2_EX 8.c:40:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   40 |                 else if (sing == '-');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:41:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   41 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:44:17: error: 'else' without a previous 'if'
+   44 |                 else if (sing == '*');
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:44:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   44 |                 else if (sing == '*');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:45:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   45 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:48:17: error: 'else' without a previous 'if'
+   48 |                 else if (sing == '/');
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:48:22: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   48 |                 else if (sing == '/');
+      |                      ^~
+..\Lecture 3_Assignment 2_EX 8.c:49:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   49 |                 {
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:52:17: error: 'else' without a previous 'if'
+   52 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:58:30: error: lvalue required as left operand of assignment
+   58 |         }while (z = 'y' || z = 'Y');
+      |                              ^
+..\Lecture 3_Assignment 2_EX 8.c:26:32: warning: variable 'answer' set but not used [-Wunused-but-set-variable]
+   26 |         float x,y,z; char sing,answer;
+      |                                ^~~~~~
+14:42:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z)
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:43:39: error: expected ';' before '}' token
+   43 |                         scanf("%c",&z)
+      |                                       ^
+      |                                       ;
+   44 |                 }
+      |                 ~                      
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z)
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:52:39: error: expected ';' before '}' token
+   52 |                         scanf("%c",&z)
+      |                                       ^
+      |                                       ;
+   53 |                                 }
+      |                                 ~      
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:42:24 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:42:27 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:55:17: error: expected 'while' before 'else'
+   55 |                 else if (sing == '*')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c: At top level:
+..\Lecture 3_Assignment 2_EX 8.c:65:17: error: expected identifier or '(' before 'else'
+   65 |                 else if (sing == '/')
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:74:17: error: expected identifier or '(' before '}' token
+   74 |                 }
+      |                 ^
+..\Lecture 3_Assignment 2_EX 8.c:75:17: error: expected identifier or '(' before 'else'
+   75 |                 else
+      |                 ^~~~
+..\Lecture 3_Assignment 2_EX 8.c:81:9: error: expected identifier or '(' before '}' token
+   81 |         }while (z == 'y' || z == 'Y');
+      |         ^
+..\Lecture 3_Assignment 2_EX 8.c:81:10: error: expected identifier or '(' before 'while'
+   81 |         }while (z == 'y' || z == 'Y');
+      |          ^~~~~
+..\Lecture 3_Assignment 2_EX 8.c:82:1: error: expected identifier or '(' before '}' token
+   82 | }
+      | ^
+14:43:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:43:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   43 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:52:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   52 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:57:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:57:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:61:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   61 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+..\Lecture 3_Assignment 2_EX 8.c:66:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:66:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:70:33: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   70 |                         scanf("%c",&z);
+      |                                ~^  ~~
+      |                                 |  |
+      |                                 |  float *
+      |                                 char *
+      |                                %e
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:44:29 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+..\Lecture 3_Assignment 2_EX 8.c: In function 'main':
+..\Lecture 3_Assignment 2_EX 8.c:39:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:39:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:39:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   39 |                         printf("%d + %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:48:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:48:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   48 |                         printf("%d - %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:57:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:57:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:57:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   57 |                         printf("%d * %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+..\Lecture 3_Assignment 2_EX 8.c:66:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                 ~^            ~
+      |                                  |            |
+      |                                  int          double
+      |                                 %f
+..\Lecture 3_Assignment 2_EX 8.c:66:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                      ~^         ~
+      |                                       |         |
+      |                                       int       double
+      |                                      %f
+..\Lecture 3_Assignment 2_EX 8.c:66:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   66 |                         printf("%d / %d = %d",x,y,answer);
+      |                                           ~^      ~~~~~~
+      |                                            |      |
+      |                                            int    double
+      |                                           %f
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:46:05 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 8
+14:49:19 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:49:33 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:51:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 
+14:52:03 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 8.o" "..\\Lecture 3_Assignment 2_EX 8.c" 
+gcc -o "Lecture 3_Assignment 2_EX 8.exe" "Lecture 3_Assignment 2_EX 8.o" 

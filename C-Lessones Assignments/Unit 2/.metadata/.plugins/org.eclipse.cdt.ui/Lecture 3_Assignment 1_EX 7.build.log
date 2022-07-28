@@ -1,0 +1,26 @@
+08:38:51 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 7.o" "..\\Lecture 3_Assignment 1_EX 7.c" 
+..\Lecture 3_Assignment 1_EX 7.c: In function 'main':
+..\Lecture 3_Assignment 1_EX 7.c:20:17: warning: format '%f' expects a matching 'float *' argument [-Wformat=]
+   20 |         scanf("%f");
+      |                ~^
+      |                 |
+      |                 float *
+..\Lecture 3_Assignment 1_EX 7.c:24:17: warning: conversion lacks type at end of format [-Wformat=]
+   24 |         scanf("%l");
+      |                 ^
+..\Lecture 3_Assignment 1_EX 7.c:26:49: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   26 |         printf("\nAfter swapping, value of a = %f\nAfter swapping, value of b = %f");
+      |                                                ~^
+      |                                                 |
+      |                                                 double
+..\Lecture 3_Assignment 1_EX 7.c:26:82: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   26 |         printf("\nAfter swapping, value of a = %f\nAfter swapping, value of b = %f");
+      |                                                                                 ~^
+      |                                                                                  |
+      |                                                                                  double
+gcc -o "Lecture 3_Assignment 1_EX 7.exe" "Lecture 3_Assignment 1_EX 7.o" 
+
+08:38:52 Build Finished (took 1s.49ms)
+
