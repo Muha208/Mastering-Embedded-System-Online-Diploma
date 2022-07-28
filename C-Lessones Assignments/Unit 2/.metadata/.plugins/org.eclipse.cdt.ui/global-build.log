@@ -1,70 +1,13 @@
-14:51:56 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
-rm -rf "Lecture 3_Assignment 1_EX 4.d" "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
-14:52:12 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 4 ****
+09:12:27 **** Clean-only build of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
+rm -rf "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" "Lecture 3_Assignment 2_EX 1.d" 
+rm: cannot remove `Lecture 3_Assignment 2_EX 1.exe': Permission denied
+09:12:30 **** Rebuild of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 4.o" "..\\Lecture 3_Assignment 1_EX 4.c" 
-gcc -o "Lecture 3_Assignment 1_EX 4.exe" "Lecture 3_Assignment 1_EX 4.o" 
-Info: Nothing to build for Lecture 3_Assignment 1_EX 4
-14:55:54 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
-gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
-14:59:41 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 5.o" "..\\Lecture 3_Assignment 1_EX 5.c" 
-gcc -o "Lecture 3_Assignment 1_EX 5.exe" "Lecture 3_Assignment 1_EX 5.o" 
-15:10:31 **** Rebuild of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-..\Lecture 3_Assignment 1_EX 6.c: In function 'main':
-..\Lecture 3_Assignment 1_EX 6.c:24:17: warning: unused variable 'b' [-Wunused-variable]
-   24 |         float a,b;
-      |                 ^
-..\Lecture 3_Assignment 1_EX 6.c:24:15: warning: unused variable 'a' [-Wunused-variable]
-   24 |         float a,b;
-      |               ^
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-15:12:56 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-15:13:24 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-..\Lecture 3_Assignment 1_EX 6.c: In function 'main':
-..\Lecture 3_Assignment 1_EX 6.c:25:16: warning: too many arguments for format [-Wformat-extra-args]
-   25 |         printf("Enter value of a: \n","Enter value of b: ");
-      |                ^~~~~~~~~~~~~~~~~~~~~~
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-15:13:42 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-..\Lecture 3_Assignment 1_EX 6.c: In function 'main':
-..\Lecture 3_Assignment 1_EX 6.c:25:16: warning: too many arguments for format [-Wformat-extra-args]
-   25 |         printf("Enter value of a: ","\nEnter value of b: ");
-      |                ^~~~~~~~~~~~~~~~~~~~
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 1_EX 6.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 2_EX 1.o" "..\\Lecture 3_Assignment 2_EX 1.c" 
+gcc -o "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 2_EX 1.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-15:14:40 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
+09:12:57 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 2_EX 1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 1_EX 6.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:14:54 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Lecture 3_Assignment 1_EX 6.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:15:06 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-15:15:55 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
-15:16:19 **** Incremental Build of configuration Debug for project Lecture 3_Assignment 1_EX 6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 3_Assignment 1_EX 6.o" "..\\Lecture 3_Assignment 1_EX 6.c" 
-gcc -o "Lecture 3_Assignment 1_EX 6.exe" "Lecture 3_Assignment 1_EX 6.o" 
+gcc -o "Lecture 3_Assignment 2_EX 1.exe" "Lecture 3_Assignment 2_EX 1.o" 
+Info: Nothing to build for Lecture 3_Assignment 2_EX 1

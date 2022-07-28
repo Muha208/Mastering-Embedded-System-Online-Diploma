@@ -1,0 +1,26 @@
+/*
+ * Lecture 3_Assignment 1_EX 7.c
+ *
+ *  Created on: 27 Jul 2022
+ *      Author: Muhammad Osama
+ */
+
+/*
+ * EX7:
+it is an interview trick
+
+Write Source Code to Swap Two Numbers without temp variable.
+ */
+
+#include<stdio.h>
+
+int main(void){
+	printf("Enter value of a: %c");
+	fflush(stdin); fflush(stdout);
+
+	printf("\nEnter value of b: %f");
+	fflush(stdin); fflush(stdout);
+
+	printf("\nAfter swapping, value of a = %.2f\nAfter swapping, value of b = %c");
+	fflush(stdin); fflush(stdout);
+}
