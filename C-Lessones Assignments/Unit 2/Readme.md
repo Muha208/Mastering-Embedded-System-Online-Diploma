@@ -66,7 +66,7 @@ ASCII value of G = 71
 
 Write Source Code to Swap Two Numbers
 
-#########Console_output######
+#########Console_output#######
 
 Enter value of a: 1.20
 Enter value of b: 2.45
