@@ -1,0 +1,22 @@
+09:57:07 **** Rebuild of configuration Debug for project Lecture 4 Lab 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 4 Lab 1.o" "..\\Lecture 4 Lab 1.c" 
+..\Lecture 4 Lab 1.c: In function 'main':
+..\Lecture 4 Lab 1.c:21:9: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   21 |         for (n=0;n<10;n++);
+      |         ^~~
+..\Lecture 4 Lab 1.c:22:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   22 |         {
+      |         ^
+..\Lecture 4 Lab 1.c:27:9: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   27 |         for (n=0;n<10;n++);
+      |         ^~~
+..\Lecture 4 Lab 1.c:28:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   28 |         {
+      |         ^
+gcc -o "Lecture 4 Lab 1.exe" "Lecture 4 Lab 1.o" 
+Info: Nothing to build for Lecture 4 Lab 1
+09:57:42 **** Incremental Build of configuration Debug for project Lecture 4 Lab 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 4 Lab 1.o" "..\\Lecture 4 Lab 1.c" 
+gcc -o "Lecture 4 Lab 1.exe" "Lecture 4 Lab 1.o" 
