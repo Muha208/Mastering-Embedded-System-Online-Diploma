@@ -20,3 +20,12 @@ Info: Nothing to build for Lecture 4 Lab 1
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 4 Lab 1.o" "..\\Lecture 4 Lab 1.c" 
 gcc -o "Lecture 4 Lab 1.exe" "Lecture 4 Lab 1.o" 
+10:54:35 **** Rebuild of configuration Debug for project Lecture 4 Lab 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 4 Lab 2.o" "..\\Lecture 4 Lab 2.c" 
+gcc -o "Lecture 4 Lab 2.exe" "Lecture 4 Lab 2.o" 
+Info: Nothing to build for Lecture 4 Lab 2
+10:55:04 **** Incremental Build of configuration Debug for project Lecture 4 Lab 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Lecture 4 Lab 2.o" "..\\Lecture 4 Lab 2.c" 
+gcc -o "Lecture 4 Lab 2.exe" "Lecture 4 Lab 2.o" 
